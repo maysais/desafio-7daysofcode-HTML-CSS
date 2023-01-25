@@ -1,0 +1,35 @@
+@import url("navegador.css");
+@import url("banners.css");
+@import url("secao_metricas.css");
+@import url("vagas.css");
+@import url("depoimentos.css");
+@import url("rodape.css");
+
+
+:root{
+    --fonte-principal: 'Inter', sans-serif;
+    --cor-destaque: #8E2424;
+    --cor-titulos: #101828;
+    --cor-texto: #667085;
+    --cor-fundo: #FFFFFF;
+}
+
+body{
+   font-family: var(--fonte-principal);
+   font-size: 16px;
+   font-weight: 500;
+   color: var(--cor-texto);
+   background-color: var(--cor-fundo);
+   box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+

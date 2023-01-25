@@ -1,0 +1,53 @@
+.rodape{
+    background-color: #F9FAFB;
+    text-align: center;
+    padding: 5em 20vw;
+}
+
+.titulo_oportunidades{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-titulos);
+}
+
+.texto_oportunidades{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1.5em 0;
+}
+
+.cadastro_oportunidades{
+    padding: 1em 0 2em 0;
+}
+
+.cadastro_email{
+    width: 300px;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #D0D5DD;
+}
+
+.cadastro_email::placeholder{
+    font-weight: 400;
+    font-size: 16px;    
+    color: var(--cor-texto);
+}
+
+.cadastro_email:focus{
+    border: 1px solid var(--cor-destaque);
+    outline: 1px solid var(--cor-destaque);
+}
+
+.botao_cadastro{
+    background-color: var(--cor-destaque);
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    padding: 1em;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.direitos_autorais{
+    font-weight: 400;
+}
